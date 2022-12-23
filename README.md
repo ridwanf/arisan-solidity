@@ -1,5 +1,5 @@
 # Arisan 
-======
+
 An arisan is a form of Rotating Savings and Credit Association in Indonesian culture (https://en.wikipedia.org/wiki/Arisan)
 
 This project will add some players with its addess, and the manager/admin will choose the winner
