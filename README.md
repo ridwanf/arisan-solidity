@@ -1,7 +1,4 @@
-# arisan-solidity
-arisan system write in solidity
-
-Arisan
+# Arisan 
 ======
 An arisan is a form of Rotating Savings and Credit Association in Indonesian culture (https://en.wikipedia.org/wiki/Arisan)
 
