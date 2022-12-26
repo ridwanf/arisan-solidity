@@ -6,7 +6,7 @@ contract Arisan {
 
     struct PlayerData {
         string name;
-        string playerAddress;
+        address playerAddress;
         uint256 balance;
     }
     address public manager;
@@ -22,9 +22,9 @@ contract Arisan {
         _;
     }
 
-    function enter(string memory _name, string memory _address) public payable {
+    function enter(string memory _name) public payable {
         require(msg.value > .01 ether, "");
-        PlayerData memory data = PlayerData(_name, _address, msg.value);
+        PlayerData memory data = PlayerData(_name, msg.sender, msg.value);
         players.push(msg.sender);
         listPlayers.push(data);
     }
